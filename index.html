@@ -5,43 +5,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Dheer Patel studies vehicle control at the Technical University of Munich.">
   <title>Dheer Patel</title>
+  <link rel="canonical" href="https://peterhalde.github.io/">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Dheer Patel">
+  <meta property="og:description" content="Doctoral researcher at the Technical University of Munich, working on controller evaluation for autonomous vehicles.">
+  <meta property="og:url" content="https://peterhalde.github.io/">
+  <meta property="og:image" content="https://peterhalde.github.io/images/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Portrait of Dheer Patel at the Technical University of Munich">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#14171a" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/source-serif-4-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dheer Patel",
+    "url": "https://peterhalde.github.io/",
+    "image": "https://peterhalde.github.io/images/og.jpg",
+    "jobTitle": "Doctoral researcher",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Technical University of Munich" },
+    "sameAs": ["https://www.linkedin.com/in/dheer-patel-a621661a5/"]
+  }
+  </script>
 </head>
 <body>
-  <nav aria-label="Main navigation">
+  <nav class="site-nav" aria-label="Main navigation">
     <div class="nav-inner">
-      <a href="index.html" aria-current="page">About</a>
-      <a href="research.html">Research</a>
-      <a href="other.html">Other</a>
+      <div class="nav-links">
+        <a href="index.html" aria-current="page">About</a>
+        <a href="research.html">Research</a>
+        <a href="other.html">Other</a>
+      </div>
     </div>
   </nav>
   <div class="layout">
-    <header>
+    <aside class="profile has-photo">
+      <img class="portrait" src="images/portrait-480.webp" srcset="images/portrait-480.webp 480w, images/portrait-720.webp 720w" sizes="(max-width: 46rem) 7rem, 15rem" width="480" height="600" alt="Portrait of Dheer Patel at the Technical University of Munich" fetchpriority="high">
       <h1>Dheer Patel</h1>
-      <p>Doctoral researcher<br>Technical University of Munich</p>
-      <div class="contacts">
-        <a href="mailto:dheer.patel@tum.de">dheer.patel@tum.de</a>
-        <a href="https://www.linkedin.com/in/dheer-patel-a621661a5/">LinkedIn</a>
-      </div>
-    </header>
+      <p class="role">Doctoral researcher<br>Technical University of Munich</p>
+      <ul class="contacts">
+        <li><a href="mailto:dheer.patel@tum.de"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg>dheer.patel@tum.de</a></li>
+        <li><a href="https://www.linkedin.com/in/dheer-patel-a621661a5/"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg>LinkedIn</a></li>
+      </ul>
+    </aside>
     <main>
-      <h2>About me</h2>
-      <p>I’m a doctoral researcher in the AV Evaluation team at the <a href="https://www.mos.ed.tum.de/en/ftm/members/teams/dheer-patel-msc/">Chair of Automotive Technology</a> at the Technical University of Munich. My research focusses on controller evaluation for autonomous vehicles, both in city traffic and at high speeds.</p>
+      <section>
+        <h2>About me</h2>
+        <p>I’m a doctoral researcher in the AV Evaluation team at the <a href="https://www.mos.ed.tum.de/en/ftm/members/teams/dheer-patel-msc/">Chair of Automotive Technology</a> at the Technical University of Munich. My research focusses on controller evaluation for autonomous vehicles, both in city traffic and at high speeds.</p>
+      </section>
 
-      <h2>Education</h2>
-      <p class="institution">Technical University of Munich</p>
-      <dl class="degrees">
-        <dt>2025</dt>
-        <dd>M.Sc. in Robotics, Cognition, Intelligence
-          <span class="grade">Final grade <strong>1.3</strong></span>
-          <span class="rank">Top 5% of my cohort</span>
-        </dd>
-        <dt>2023</dt>
-        <dd>B.Sc. in Mechanical Engineering
-          <span class="grade">Final grade <strong>1.6</strong></span>
-          <span class="rank">Top 5% of my cohort</span>
-        </dd>
-      </dl>
+      <section>
+        <h2>Education</h2>
+        <p class="institution">Technical University of Munich</p>
+        <dl class="degrees">
+          <dt>2025</dt>
+          <dd>M.Sc. in Robotics, Cognition, Intelligence
+            <span class="meta"><span>Final grade <strong>1.3</strong></span><span>Top 5% of my cohort</span></span>
+          </dd>
+          <dt>2023</dt>
+          <dd>B.Sc. in Mechanical Engineering
+            <span class="meta"><span>Final grade <strong>1.6</strong></span><span>Top 5% of my cohort</span></span>
+          </dd>
+        </dl>
+      </section>
     </main>
   </div>
 </body>
