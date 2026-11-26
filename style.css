@@ -39,7 +39,10 @@ header p { margin-top: 0.7rem; }
 .contacts { display: grid; justify-items: start; gap: 0.2rem; margin-top: 1.25rem; font-size: 1rem; }
 main p, main dl, article { margin-top: 0.8rem; }
 main h2:not(:first-child) { margin-top: 2.5rem; }
-.degrees { display: grid; grid-template-columns: auto 1fr; gap: 0.6rem 1.3rem; }
+.degrees { display: grid; grid-template-columns: auto 1fr; gap: 1.2rem 1.3rem; }
+.degrees .grade, .degrees .rank { display: block; font-size: 1rem; }
+.degrees .grade { margin-top: 0.15rem; }
+.degrees .rank { color: var(--muted); font-style: italic; }
 dt, .publication { color: var(--muted); }
 dt { font-variant-numeric: tabular-nums; }
 article p { margin-top: 0.35rem; }
